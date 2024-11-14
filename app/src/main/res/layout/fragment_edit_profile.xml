@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditProfile">
+    tools:context=".EditProfileFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout5"
@@ -90,7 +90,7 @@
                 android:layout_gravity="bottom|center"
                 android:height="35dp"
                 android:elegantTextHeight="false"
-                android:text="Edit"
+                android:text="Save"
                 android:textColor="#FC97C1"
                 app:cornerRadius="5dp" />
 
