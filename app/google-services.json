@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "474203001723",
+    "firebase_url": "https://profile-2bf5c-default-rtdb.firebaseio.com",
+    "project_id": "profile-2bf5c",
+    "storage_bucket": "profile-2bf5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474203001723:android:2735ab45e9c92f387d23de",
+        "android_client_info": {
+          "package_name": "via.mobile.profile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT3MdhLvAX5cGFzOENbH_3W0oFbYz4Bt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

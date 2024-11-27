@@ -84,13 +84,13 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnSave"
                 android:layout_width="113dp"
                 android:layout_height="38dp"
                 android:layout_gravity="bottom|center"
                 android:height="35dp"
                 android:elegantTextHeight="false"
-                android:text="Edit"
+                android:text="Save"
                 android:textColor="#FC97C1"
                 app:cornerRadius="5dp" />
 

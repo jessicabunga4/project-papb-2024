@@ -1,24 +1,25 @@
 package via.mobile.profile;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import android.widget.Button; // Tambahkan import Button
+import android.widget.Toast; // Tambahkan import Toast
+
 public class EditProfile extends AppCompatActivity {
 
     private RecyclerView rvProfile;
     private List<Profile> data;
     private ProfileAdapter profileAdapter;
+    private Button btnSave; // Deklarasi tombol
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +40,20 @@ public class EditProfile extends AppCompatActivity {
         this.rvProfile.setLayoutManager(
                 new LinearLayoutManager(this)
         );
+
+        // Inisialisasi tombol
+        this.btnSave = findViewById(R.id.btnSave);
+        this.btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Menampilkan toast
+                Toast.makeText(EditProfile.this, "Your Profile was Successfully Saved", Toast.LENGTH_SHORT).show();
+
+                // Pindah ke MainActivity
+                Intent intent = new Intent(EditProfile.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
