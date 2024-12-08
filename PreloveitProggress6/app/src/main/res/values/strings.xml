@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PreloveitProggress6</string>
+
+    //Kemeja Flanel
+    <string name="p1">Kemeja Flanel</string>
+    <string name="f1">13</string>
+    <string name="h1">Rp.30.000</string>
+    <string name="desc1">Kemeja bermotif kotak terbuat dari bahan wol yang
+    hangat dan nyaman. Cocok untuk OOTD kuliah. Harga sudah paling murah dengan
+    kualitas yangterjamin</string>
+    <string name="name1">Kemeja Tartan Flanel </string>
+    <string name="b1">HnM</string>
+    <string name="m1">- No minus baru dipakai 2x</string>
+
+    //Topi Oldschool
+    <string name="p2">Topi Oldschool</string>
+    <string name="f2">8</string>
+    <string name="h2">Rp.28.000</string>
+    <string name="desc2">Topi baseball dengan gaya retro, keluaran tahun 2016, bahan
+    dingin dan kokoh, ukuran dapat di adjust dengan mudah. Fashionable dan tidak pasaran </string>
+    <string name="name2">Topi Baseball Oldschool</string>
+    <string name="b2">NIKE</string>
+    <string name="m2">- terdapat noda tak kasat mata di bagian ujung
+    \n- ada jahitan yang kendur di dalam topi</string>
+
+    //Gaun Floral
+    <string name="p3">Gaun Floral</string>
+    <string name="f3">19</string>
+    <string name="h3">Rp.55.000</string>
+    <string name="desc3">Mini dress bermotif bunga dengan base putih bahan katun dan furing
+    yang dijamin dingin, Cocok digunakan saat musim panas dan liburan ke pantai. ukuran dress
+    M, cocok untul LD 80-85 dan TB maksimal 170cm</string>
+    <string name="name3">Floral Mini Dress</string>
+    <string name="b3">SHEIN</string>
+    <string name="m3">- tali sebelah kiri pernah putus, namun sudah diperbaiki
+    \n - renda bagian belakang juga pernah kendur tapi sudah diperbaiki</string>
+
+    //Topi Gaun Formal
+    <string name="p4">Gaun Formal</string>
+    <string name="f4">11</string>
+    <string name="h4">Rp.65.000</string>
+    <string name="desc4">Dress formal berkerah dengan warna cream ini masih baru, 3x pemakaian,
+    cocok digunakan untuk acara formal seperti rapat, kuliah, atau yang lainnya. alasan dijual
+    karena sudah ga cukup di admin</string>
+    <string name="name4">Gaun Formal Berkerah</string>
+    <string name="b4">Zara</string>
+    <string name="m4">- No Minus baru 3x digunakan</string>
+
+    //Topi Jaket Kulit
+    <string name="p5">Jaket Kulit</string>
+    <string name="f5">23</string>
+    <string name="h5">Rp.100.000</string>
+    <string name="desc5">Jaket kulit sintetis, dingin dan menyerupai bahan kulit asli, model
+    kekinian dan warna tidak luntur, terdapat 2 kantong pada bagian dalam, cocok digunakan
+    untuk pria maupun wanita</string>
+    <string name="name5">Jaket Kulit Sintetis</string>
+    <string name="b5">No Brand</string>
+    <string name="m5">- sedikit ada jamur, free cairan pembersih</string>
+
+    //Topi Baggy Star Jeans
+    <string name="p6">Baggy Star Jeans</string>
+    <string name="f6">12</string>
+    <string name="h6">Rp.85.000</string>
+    <string name="desc6">Baggy jeans dengan motif bintang, cocok dipadukan dengan outfit Y2K atau
+    Acubi, terdapat lipatan untuk dipendekkan karena celana ini cukup panjang dari standar biasanya</string>
+    <string name="name6">JBaggy Star Jeans</string>
+    <string name="b6">SHEIN</string>
+    <string name="m6">- ada motif bintang yang sedikit terkena noda cat akrilik, bisa dibersihkan namun perlu
+    menebali motif bintangnya lagi</string>
+</resources>
