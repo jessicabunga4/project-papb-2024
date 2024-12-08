@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568814213709",
+    "project_id": "prelovitprogress6",
+    "storage_bucket": "prelovitprogress6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568814213709:android:bf826448b67e1893225a04",
+        "android_client_info": {
+          "package_name": "jess.pam.preloveitproggress6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6hSbf_MnynO8Vw9dYhlSqmL_GgASlDRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

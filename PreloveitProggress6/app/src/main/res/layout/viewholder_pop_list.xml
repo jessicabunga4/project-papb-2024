@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="175dp"
+    android:layout_height="245dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/white_background"
+    android:elevation="3dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/tvImage"
+        android:layout_width="175dp"
+        android:layout_height="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/item1" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/white_background"
+        app:layout_constraintBottom_toTopOf="@+id/tvImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="0"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="0"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="0"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="0"
+        app:layout_constraintBottom_toTopOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="115dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:lines="2"
+        android:maxLines="2"
+        android:paddingTop="10dp"
+        android:paddingEnd="8dp"
+        android:text="title"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvImage" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Rp. 50.000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/tvFavnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="10"
+        android:textColor="@color/pinkmenyala"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toStartOf="@+id/ivfavorit"
+        app:layout_constraintStart_toEndOf="@+id/tvTitle"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+    <ImageView
+        android:id="@+id/ivfavorit"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle"
+        app:srcCompat="@drawable/favoritpink" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
