@@ -7,6 +7,10 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+<<<<<<< HEAD
+=======
+firebaseDatabase = "21.0.0"
+>>>>>>> 9455e58f147783bf1c80994cc94cda5d1060ed33
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -16,6 +20,10 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+<<<<<<< HEAD
+=======
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+>>>>>>> 9455e58f147783bf1c80994cc94cda5d1060ed33
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

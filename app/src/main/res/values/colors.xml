@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="softPurple100">#EFCCFF</color>
+    <color name="softPurple200">#DE99FF</color>
+    <color name="softPink100">#FFCCE1</color>
+    <color name="softPink200">#FA96C0</color>
+    <color name="softPink500">#FF166A</color>
+    <color name="greyNeutral">#9A9A9A</color>
+    <color name="greyNeutral100">#E6E6E6</color>
+    <color name="red">#FF0000</color>
+>>>>>>> 9455e58f147783bf1c80994cc94cda5d1060ed33
 </resources>
